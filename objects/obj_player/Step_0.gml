@@ -1,3 +1,11 @@
+// @description player movement code
+
+// Check keys for movement 
+moveRight = keyboard_check(vk_right); 
+moveUp = keyboard_check(vk_up); 
+moveLeft = keyboard_check(vk_left); 
+moveDown = keyboard_check(vk_down); 
+
 // Calculate movement 
 vx = ((moveRight - moveLeft) * walkSpeed); 
 vy = ((moveDown - moveUp) * walkSpeed);
