@@ -1,10 +1,12 @@
 // Calculate movement 
-vx = (moveRight * walkSpeed); 
+vx = ((moveRight - moveLeft) * walkSpeed); 
+vy = ((moveDown - moveUp) * walkSpeed);
 // If Idle 
-if (vx == 0) { 
+if (vx == 0 && vy == 0) { 
 // do nothing for now 
 } 
 // If moving 
-if (vx != 0) { 
-x += vx; 
+if (vx != 0 || vy != 0) { 
+	x += vx;
+	y += vy;
 }
