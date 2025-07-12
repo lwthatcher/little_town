@@ -21,11 +21,11 @@ if (vx == 0 && vy == 0)
 		case 3: sprite_index = spr_player_idle_down; break; 
 	} 
 } 
-// If moving 
+// If moving
 if (vx != 0 || vy != 0)
 { 
-	x += vx;
-	y += vy;
+	if !collision_point(x+vx,y,obj_par_environment,true,true){ x += vx; }
+	if !collision_point(x,y+vy,obj_par_environment,true,true) { y += vy; }
 }
 
 // change walking sprite based on direction
