@@ -49,3 +49,6 @@ if (vy < 0)
 	sprite_index = spr_player_walk_up;
 	dir = 1;
 }
+
+// Depth sorting
+depth =-y; 

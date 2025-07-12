@@ -37,6 +37,8 @@
   },
   "name":"Little Town",
   "resources":[
+    {"id":{"name":"obj_barrel","path":"objects/obj_barrel/obj_barrel.yy",},},
+    {"id":{"name":"obj_parent_environment","path":"objects/obj_parent_environment/obj_parent_environment.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"rm_gameMain","path":"rooms/rm_gameMain/rm_gameMain.yy",},},
     {"id":{"name":"spr_barrel01","path":"sprites/spr_barrel01/spr_barrel01.yy",},},
