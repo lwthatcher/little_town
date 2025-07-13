@@ -6,8 +6,8 @@
   "name":"obj_fountain",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Environment",
+    "path":"folders/Objects/Environment.yy",
   },
   "parentObjectId":{
     "name":"obj_par_environment",
