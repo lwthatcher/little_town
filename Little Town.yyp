@@ -40,6 +40,7 @@
     {"id":{"name":"obj_barrel","path":"objects/obj_barrel/obj_barrel.yy",},},
     {"id":{"name":"obj_bush01","path":"objects/obj_bush01/obj_bush01.yy",},},
     {"id":{"name":"obj_fence01","path":"objects/obj_fence01/obj_fence01.yy",},},
+    {"id":{"name":"obj_fountain","path":"objects/obj_fountain/obj_fountain.yy",},},
     {"id":{"name":"obj_par_environment","path":"objects/obj_par_environment/obj_par_environment.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_rock01","path":"objects/obj_rock01/obj_rock01.yy",},},
