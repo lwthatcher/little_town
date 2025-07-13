@@ -9,6 +9,7 @@ moveDown = keyboard_check(vk_down) or keyboard_check(ord("S"));
 // Calculate movement
 vx = ((moveRight - moveLeft) * walkSpeed);
 vy = ((moveDown - moveUp) * walkSpeed);
+
 // If Idle
 if (vx == 0 && vy == 0)
 { 
@@ -19,7 +20,7 @@ if (vx == 0 && vy == 0)
 		case 1: sprite_index = spr_player_idle_up; break; 
 		case 2: sprite_index = spr_player_idle_left; break; 
 		case 3: sprite_index = spr_player_idle_down; break; 
-	} 
+	}
 } 
 // If moving
 if (vx != 0 || vy != 0)
@@ -28,7 +29,7 @@ if (vx != 0 || vy != 0)
 	if !collision_point(x,y+vy,obj_par_environment,true,true) { y += vy; }
 }
 
-// change walking sprite based on direction
+// Change walking sprite based on direction
 if (vx > 0)
 {
 	sprite_index = spr_player_walk_right;
@@ -50,5 +51,16 @@ if (vy < 0)
 	dir = 1;
 }
 
+// Check for collisions with NPCs
+nearbyNPC = collision_rectangle(x-lookRange,y-lookRange,x+lookRange,y+lookRange,obj_par_npc,false,true);
+if nearbyNPC
+{
+	show_debug_message("player has found an NPC!");
+}
+else
+{
+	//show_debug_message("No NPCs found :(");
+}
+
 // Depth sorting
-depth =-y; 
+depth =-y;
