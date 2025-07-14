@@ -1,0 +1,6 @@
+// Play Music in room
+switch room {
+	case rm_gameMain: {  
+			audio_play_sound(snd_townBGM,1,1);
+		} break;
+}
