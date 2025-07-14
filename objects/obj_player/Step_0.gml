@@ -55,11 +55,22 @@ if (vy < 0)
 nearbyNPC = collision_rectangle(x-lookRange,y-lookRange,x+lookRange,y+lookRange,obj_par_npc,false,true);
 if nearbyNPC
 {
-	show_debug_message("player has found an NPC!");
+	// Play greeting sound
+	if (!hasGreeted)
+	{
+		if !(audio_is_playing(snd_greeting01))
+		{
+			audio_play_sound(snd_greeting01, 1, 0);
+			hasGreeted = true;
+		}
+	}
 }
 else
 {
-	//show_debug_message("No NPCs found :(");
+	if (hasGreeted)
+	{
+		hasGreeted = false;
+	}
 }
 
 // Depth sorting
