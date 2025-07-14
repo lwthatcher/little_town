@@ -4,7 +4,9 @@
   "eventList":[],
   "managed":true,
   "name":"obj_fountain",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_environment","path":"objects/obj_par_environment/obj_par_environment.yy",},"propertyId":{"name":"useSound","path":"objects/obj_par_environment/obj_par_environment.yy",},"resource":{"name":"snd_fountain","path":"sounds/snd_fountain/snd_fountain.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_fountain",},
+  ],
   "parent":{
     "name":"Environment",
     "path":"folders/Objects/Environment.yy",
