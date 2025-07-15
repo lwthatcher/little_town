@@ -88,6 +88,8 @@
     {"id":{"name":"spr_fountain","path":"sprites/spr_fountain/spr_fountain.yy",},},
     {"id":{"name":"spr_grass01","path":"sprites/spr_grass01/spr_grass01.yy",},},
     {"id":{"name":"spr_grocer_idle_down","path":"sprites/spr_grocer_idle_down/spr_grocer_idle_down.yy",},},
+    {"id":{"name":"spr_gui_prompt","path":"sprites/spr_gui_prompt/spr_gui_prompt.yy",},},
+    {"id":{"name":"spr_gui_textbox","path":"sprites/spr_gui_textbox/spr_gui_textbox.yy",},},
     {"id":{"name":"spr_player_idle_down","path":"sprites/spr_player_idle_down/spr_player_idle_down.yy",},},
     {"id":{"name":"spr_player_idle_left","path":"sprites/spr_player_idle_left/spr_player_idle_left.yy",},},
     {"id":{"name":"spr_player_idle_right","path":"sprites/spr_player_idle_right/spr_player_idle_right.yy",},},
