@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_npc_baker",
+  "%Name":"obj_npc_luna",
   "eventList":[],
   "managed":true,
-  "name":"obj_npc_baker",
+  "name":"obj_npc_luna",
   "overriddenProperties":[],
   "parent":{
     "name":"NPCs",
