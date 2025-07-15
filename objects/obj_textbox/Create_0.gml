@@ -1,7 +1,10 @@
 // Textbox variables 
 textToShow = "This is a textbox."
-textWidth = 450; 
-lineHeight = 28; 
+textWidth = 450;
+lineHeight = 28;
+fadeMe = 0;
+fadeSpeed = 0.1;
+image_alpha = 0;
 
 // Disable player control
 global.playerControl = false;

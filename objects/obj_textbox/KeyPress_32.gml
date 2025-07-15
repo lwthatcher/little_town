@@ -1,2 +1,4 @@
 // Queue my destruction 
-alarm[0] = 2; 
+if (fadeMe == 1) {
+	fadeMe = 2;
+}
