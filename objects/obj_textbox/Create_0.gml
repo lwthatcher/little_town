@@ -1,4 +1,7 @@
 // Textbox variables 
-textToShow = "Hey look, we can put even longer messages in here! We can even advertise about Luna's shop!"
+textToShow = "This is a textbox."
 textWidth = 450; 
 lineHeight = 28; 
+
+// Disable player control
+global.playerControl = false;
