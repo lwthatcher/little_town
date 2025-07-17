@@ -23,7 +23,14 @@ vy = ((moveDown - moveUp) * walkSpeed);
 // If Idle
 if (vx == 0 && vy == 0)
 { 
-	myState = playerState.idle;
+	// If not picking up or or putting down item
+	if (myState != playerState.pickingUp && myState != playerState.puttingDown)
+	{
+		// If we don't have an item
+		if (hasItem == noone) { myState = playerState.idle; }
+		// If we are carrying an item
+		else { myState = playerState.carryIdle; }
+	}
 }
 // If moving
 if (vx != 0 || vy != 0)
@@ -39,7 +46,8 @@ if (vx != 0 || vy != 0)
 	if (vy < 0) { dir = 1; }
 
 	// Set state
-	myState = playerState.walking;
+	if (hasItem == noone) { myState = playerState.walking; }
+	else { myState = playerState.carrying; }
 	
 	// Move audio listener with player
 	audio_listener_set_position(0,x,y,0);
@@ -77,7 +85,7 @@ else
 
 // Check for collisions with Items
 nearbyItem = collision_rectangle(x-lookRange,y-lookRange,x+lookRange,y+lookRange,obj_par_item,false,false);
-if nearbyItem
+if (nearbyItem && !nearbyNPC)
 {
 	// Pop up prompt
 	if (itemPrompt == noone || itemPrompt == undefined)
@@ -85,10 +93,20 @@ if nearbyItem
 		itemPrompt = scr_showPrompt(nearbyItem, nearbyItem.x, nearbyItem.y-300);
 	}
 }
-else
+else if (!nearbyItem || nearbyNPC)
 {
 	// Get rid of prompt
 	scr_dismissPrompt(itemPrompt, 1);
+}
+
+// If picking up an item
+if (myState == playerState.pickingUp)
+{
+	if (image_index >= image_number-1)
+	{
+		myState = playerState.carrying;
+		global.playerControl = true;
+	}
 }
 
 // Auto-choose Sprite based on state and direction
