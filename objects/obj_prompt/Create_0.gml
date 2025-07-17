@@ -5,3 +5,7 @@ image_alpha = 0;
 
 // Play UI sound
 audio_play_sound(snd_pop02, 1, 0);
+
+// Set up bobbing effect
+shift = 1;
+alarm[1] = 10;

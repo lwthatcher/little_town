@@ -1,3 +1,6 @@
+// Bob up and down 
+y += shift;
+
 // Fade effects
 switch fadeMe {
 	// Fade in
