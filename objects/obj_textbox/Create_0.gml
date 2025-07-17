@@ -8,3 +8,6 @@ image_alpha = 0;
 
 // Disable player control
 global.playerControl = false;
+
+// Play UI sound 
+audio_play_sound(snd_pop01,1,0);
