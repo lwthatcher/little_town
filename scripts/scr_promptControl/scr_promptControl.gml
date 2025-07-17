@@ -21,8 +21,8 @@ function scr_dismissPrompt(_whichPrompt,_toReset) {
 				with (obj_player) {
 					switch _toReset {
 						// Reset NPC prompt
-						case 0: npcPrompt = noone;
-						break;
+						case 0: npcPrompt = noone; break;
+						case 1: itemPrompt = noone; break;
 					}
 				}
 			}

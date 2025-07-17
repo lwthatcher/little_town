@@ -10,6 +10,14 @@ moveLeft = 0;
 moveUp = 0;
 moveDown = 0;
 
+// Item Handling
+hasItem = noone;
+hasItemX = x;
+hasItemY = y;
+nearbyItem = noone;
+itemPrompt = noone;
+carryLimit = 0;
+
 // NPC detection
 nearbyNPC = noone;
 lookRange = 30;

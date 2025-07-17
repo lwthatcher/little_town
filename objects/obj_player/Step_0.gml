@@ -94,5 +94,23 @@ else
 	scr_dismissPrompt(npcPrompt, 0);
 }
 
+// Check for collisions with Items
+nearbyItem = collision_rectangle(x-lookRange,y-lookRange,x+lookRange,y+lookRange,obj_par_item,false,false);
+if nearbyItem
+{
+	// Pop up prompt
+	if (itemPrompt == noone || itemPrompt == undefined)
+	{
+		itemPrompt = scr_showPrompt(nearbyItem, nearbyItem.x, nearbyItem.y-300);
+	}
+}
+else
+{
+	// Get rid of prompt
+	scr_dismissPrompt(itemPrompt, 1);
+}
+
+
+
 // Depth sorting
 depth =-y;
