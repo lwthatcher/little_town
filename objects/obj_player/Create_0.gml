@@ -1,4 +1,6 @@
 // @description Player creation event
+
+// Movement variables
 walkSpeed = 16;
 vx = 0;
 vy = 0;
@@ -12,6 +14,7 @@ moveDown = 0;
 nearbyNPC = noone;
 lookRange = 30;
 hasGreeted = false;
+npcPrompt = noone;
 
 // Create listener and set orientation 
 audio_listener_set_position(0,x,y,0); 

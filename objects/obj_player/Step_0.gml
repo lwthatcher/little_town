@@ -77,13 +77,21 @@ if nearbyNPC
 			hasGreeted = true;
 		}
 	}
+	// Pop up prompt
+	if (npcPrompt == noone || npcPrompt == undefined)
+	{
+		npcPrompt = scr_showPrompt(nearbyNPC, nearbyNPC.x, nearbyNPC.y-450);	
+	}
 }
 else
 {
+	// Reset greeting
 	if (hasGreeted)
 	{
 		hasGreeted = false;
 	}
+	// Get rid of prompt
+	scr_dismissPrompt(npcPrompt, 0);
 }
 
 // Depth sorting
