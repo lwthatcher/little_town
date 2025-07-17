@@ -109,6 +109,19 @@ if (myState == playerState.pickingUp)
 	}
 }
 
+// If puttind down an item
+if (myState == playerState.puttingDown)
+{
+	// Reset weight
+	carryLimit = 0;
+	// Reset my state once animation finishes
+	if (image_index >= image_number-1)
+	{
+		myState = playerState.idle;
+		global.playerControl = true;
+	}
+}
+
 // Auto-choose Sprite based on state and direction
 sprite_index = playerSpr[myState][dir];
 
