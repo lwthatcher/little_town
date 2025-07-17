@@ -29,6 +29,7 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"loopRange01","filters":[],"listItems":[],"multiselect":false,"name":"loopRange01","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"30","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"loopRange02","filters":[],"listItems":[],"multiselect":false,"name":"loopRange02","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"240","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"myText","filters":[],"listItems":[],"multiselect":false,"name":"myText","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Have you heard about Luna's shop?\"","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -6,6 +6,7 @@
   "name":"obj_npc_teacher",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"loopRange02","path":"objects/obj_par_npc/obj_par_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"300",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"myText","path":"objects/obj_par_npc/obj_par_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Luna is a cat!\"",},
   ],
   "parent":{
     "name":"NPCs",

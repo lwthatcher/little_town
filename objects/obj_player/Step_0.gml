@@ -1,10 +1,20 @@
 // @description player movement code
 
-// Check keys for movement 
-moveRight = keyboard_check(vk_right) or keyboard_check(ord("D"));
-moveUp = keyboard_check(vk_up) or keyboard_check(ord("W"));
-moveLeft = keyboard_check(vk_left) or keyboard_check(ord("A"));
-moveDown = keyboard_check(vk_down) or keyboard_check(ord("S"));
+// Check keys for movement
+if (global.playerControl)
+{
+	moveRight = keyboard_check(vk_right) or keyboard_check(ord("D"));
+	moveUp = keyboard_check(vk_up) or keyboard_check(ord("W"));
+	moveLeft = keyboard_check(vk_left) or keyboard_check(ord("A"));
+	moveDown = keyboard_check(vk_down) or keyboard_check(ord("S"));
+}
+else
+{
+	moveRight = 0;
+	moveUp = 0;
+	moveLeft = 0;
+	moveDown = 0;
+}
 
 // Calculate movement
 vx = ((moveRight - moveLeft) * walkSpeed);
@@ -67,13 +77,21 @@ if nearbyNPC
 			hasGreeted = true;
 		}
 	}
+	// Pop up prompt
+	if (npcPrompt == noone || npcPrompt == undefined)
+	{
+		npcPrompt = scr_showPrompt(nearbyNPC, nearbyNPC.x, nearbyNPC.y-450);	
+	}
 }
 else
 {
+	// Reset greeting
 	if (hasGreeted)
 	{
 		hasGreeted = false;
 	}
+	// Get rid of prompt
+	scr_dismissPrompt(npcPrompt, 0);
 }
 
 // Depth sorting
