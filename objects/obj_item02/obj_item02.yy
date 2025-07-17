@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_item01",
+  "%Name":"obj_item02",
   "eventList":[],
   "managed":true,
-  "name":"obj_item01",
+  "name":"obj_item02",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_item","path":"objects/obj_par_item/obj_par_item.yy",},"propertyId":{"name":"itemName","path":"objects/obj_par_item/obj_par_item.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"rolling pin\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_item","path":"objects/obj_par_item/obj_par_item.yy",},"propertyId":{"name":"itemName","path":"objects/obj_par_item/obj_par_item.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"apple\"",},
   ],
   "parent":{
     "name":"Items",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_item01",
-    "path":"sprites/spr_item01/spr_item01.yy",
+    "name":"spr_item02",
+    "path":"sprites/spr_item02/spr_item02.yy",
   },
   "spriteMaskId":null,
   "visible":true,
