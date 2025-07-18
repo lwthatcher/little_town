@@ -16,9 +16,23 @@ else
 	moveDown = 0;
 }
 
+// Run with Shift key
+running = keyboard_check(vk_shift);
+
+// Speed up if running
+if running
+{
+	if (runSpeed < runMax) { runSpeed += 2; }
+}
+// Slow down if no longer running
+if !running
+{
+	if runSpeed > 0 { runSpeed -= 1; }
+}
+
 // Calculate movement
-vx = ((moveRight - moveLeft) * walkSpeed * (1-carryLimit));
-vy = ((moveDown - moveUp) * walkSpeed * (1-carryLimit));
+vx = ((moveRight - moveLeft) * (walkSpeed+runSpeed) * (1-carryLimit));
+vy = ((moveDown - moveUp) * (walkSpeed+runSpeed) * (1-carryLimit));
 
 // If Idle
 if (vx == 0 && vy == 0)

@@ -9,6 +9,13 @@ moveRight = 0;
 moveLeft = 0;
 moveUp = 0;
 moveDown = 0;
+
+// Running
+runSpeed = 0;
+runMax = 12;
+running = false;
+
+// Default state
 myState = playerState.idle;
 
 // Item handling
