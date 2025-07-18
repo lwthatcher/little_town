@@ -9,6 +9,7 @@ moveRight = 0;
 moveLeft = 0;
 moveUp = 0;
 moveDown = 0;
+startDust = 0;
 
 // Running
 runSpeed = 0;

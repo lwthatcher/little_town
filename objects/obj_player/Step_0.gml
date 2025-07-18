@@ -22,12 +22,20 @@ running = keyboard_check(vk_shift);
 // Speed up if running
 if running
 {
+	// Ramp up
 	if (runSpeed < runMax) { runSpeed += 2; }
+	// Start creating dust
+	if (startDust == 0) {
+		alarm[0] = 2;
+		startDust = 1;
+	}
 }
 // Slow down if no longer running
 if !running
 {
+	// Ramp down
 	if runSpeed > 0 { runSpeed -= 1; }
+	startDust = 0;
 }
 
 // Calculate movement
