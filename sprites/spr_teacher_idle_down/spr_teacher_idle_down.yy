@@ -38,8 +38,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"NPCs",
-    "path":"folders/Sprites/NPCs.yy",
+    "name":"Teacher",
+    "path":"folders/Sprites/NPCs/Teacher.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
