@@ -79,6 +79,7 @@
     {"id":{"name":"scr_promptControl","path":"scripts/scr_promptControl/scr_promptControl.yy",},},
     {"id":{"name":"seq_baker_happy","path":"sequences/seq_baker_happy/seq_baker_happy.yy",},},
     {"id":{"name":"seq_baker_sad","path":"sequences/seq_baker_sad/seq_baker_sad.yy",},},
+    {"id":{"name":"seq_teacher_angry","path":"sequences/seq_teacher_angry/seq_teacher_angry.yy",},},
     {"id":{"name":"seq_teacher_happy","path":"sequences/seq_teacher_happy/seq_teacher_happy.yy",},},
     {"id":{"name":"seq_teacher_sad","path":"sequences/seq_teacher_sad/seq_teacher_sad.yy",},},
     {"id":{"name":"snd_fountain","path":"sounds/snd_fountain/snd_fountain.yy",},},
