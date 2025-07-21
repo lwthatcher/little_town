@@ -31,3 +31,4 @@ enum seqState {
 sequenceState = seqState.notPlaying;
 curSeqLayer = noone;
 curSeq = noone;
+curSeqID = undefined;
