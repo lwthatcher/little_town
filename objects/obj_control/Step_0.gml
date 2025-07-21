@@ -5,12 +5,12 @@ switch sequenceState {
 	} break;
 	case seqState.finished: {
 		// Remove Sequence 
-		if (layer_sequence_exists(curSeqLayer,curSeqID)) {
-			layer_sequence_destroy(curSeqID);
+		if (layer_sequence_exists(curSeqLayer,curSeq)) {
+			layer_sequence_destroy(curSeq);
 		}
 		// Restore control to player, reset
 		global.playerControl = true;
 		sequenceState = seqState.notPlaying;
-		curSeqID = noone;
+		curSeq = noone;
 	} break;
 }
