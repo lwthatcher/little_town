@@ -5,7 +5,13 @@
   "managed":true,
   "name":"obj_npc_grocer",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"myText","path":"objects/obj_par_npc/obj_par_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"What am I even doing here??\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"myText","path":"objects/obj_par_npc/obj_par_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"How am I suppossed to keep my veggies fresh?\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"myItem","path":"objects/obj_par_npc/obj_par_npc.yy",},"resource":{"name":"obj_item06","path":"objects/obj_item06/obj_item06.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_item06",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"itemTextHappy","path":"objects/obj_par_npc/obj_par_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Oh, a watering can? How perfect!\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"itemTextSad","path":"objects/obj_par_npc/obj_par_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"This isn't what I wanted! How dare you!\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"itemTextDone","path":"objects/obj_par_npc/obj_par_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Now I can pour water on cats with this!\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"sequenceHappy","path":"objects/obj_par_npc/obj_par_npc.yy",},"resource":{"name":"seq_grocer_happy","path":"sequences/seq_grocer_happy/seq_grocer_happy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"seq_grocer_happy",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"sequenceSad","path":"objects/obj_par_npc/obj_par_npc.yy",},"resource":{"name":"seq_grocer_angry","path":"sequences/seq_grocer_angry/seq_grocer_angry.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"seq_grocer_angry",},
   ],
   "parent":{
     "name":"NPCs",

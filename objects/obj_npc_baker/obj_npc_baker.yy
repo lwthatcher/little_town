@@ -5,7 +5,13 @@
   "managed":true,
   "name":"obj_npc_baker",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"myText","path":"objects/obj_par_npc/obj_par_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Look, if we wrap Luna in a blanket, we could make a purrito!\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"myText","path":"objects/obj_par_npc/obj_par_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"I sure wish I had something to help me bake this pie...\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"myItem","path":"objects/obj_par_npc/obj_par_npc.yy",},"resource":{"name":"obj_item01","path":"objects/obj_item01/obj_item01.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_item01",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"itemTextHappy","path":"objects/obj_par_npc/obj_par_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Oh my goodness, is this what I think it is!?\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"itemTextSad","path":"objects/obj_par_npc/obj_par_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Why would you bring me this?\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"sequenceHappy","path":"objects/obj_par_npc/obj_par_npc.yy",},"resource":{"name":"seq_baker_happy","path":"sequences/seq_baker_happy/seq_baker_happy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"seq_baker_happy",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"itemTextDone","path":"objects/obj_par_npc/obj_par_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Thank you! Now I can make pies for Luna!\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"sequenceSad","path":"objects/obj_par_npc/obj_par_npc.yy",},"resource":{"name":"seq_baker_sad","path":"sequences/seq_baker_sad/seq_baker_sad.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"seq_baker_sad",},
   ],
   "parent":{
     "name":"NPCs",
