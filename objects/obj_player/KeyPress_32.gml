@@ -2,13 +2,30 @@ var _text;
 
 // If player has control
 if (global.playerControl) {
+	
 	// Near NPC
 	if (nearbyNPC) {
-		// If player does not have an item
+		// Player does not have an item
 		if (hasItem == noone || hasItem == undefined) {
 			_text = nearbyNPC.myText;
 			if (!instance_exists(obj_textbox)) {
 				var iii = instance_create_depth(nearbyNPC.x,nearbyNPC.y-400,-10000,obj_textbox);
+				iii.textToShow = _text;
+			}
+		}
+		// Player has Item
+		if (hasItem != noone && instance_exists(hasItem)) {
+			// Correct Item
+			if (hasItem.object_index == nearbyNPC.myItem) {
+				_text = nearbyNPC.itemTextHappy;
+			}
+			// Wrong Item
+			else { 
+				_text = nearbyNPC.itemTextSad;
+			}
+			// Create Textbox
+			if (!instance_exists(obj_textbox)) {
+				var iii	= instance_create_depth(nearbyNPC.x,nearbyNPC.y-400,-10000,obj_textbox);
 				iii.textToShow = _text;
 			}
 		}
