@@ -19,9 +19,11 @@ if (global.playerControl) {
 			if (hasItem.object_index == nearbyNPC.myItem) {
 				_text = nearbyNPC.itemTextHappy;
 				_seq = nearbyNPC.sequenceHappy;
+				// Check if we should remove item, mark NPC
+				alarm[1] = 10;
 			}
 			// Wrong Item
-			else { 
+			else {
 				_text = nearbyNPC.itemTextSad;
 				_seq = nearbyNPC.sequenceSad;
 			}

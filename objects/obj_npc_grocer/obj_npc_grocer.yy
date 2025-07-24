@@ -12,6 +12,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"itemTextDone","path":"objects/obj_par_npc/obj_par_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Now I can pour water on cats with this!\"",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"sequenceHappy","path":"objects/obj_par_npc/obj_par_npc.yy",},"resource":{"name":"seq_grocer_happy","path":"sequences/seq_grocer_happy/seq_grocer_happy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"seq_grocer_happy",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"sequenceSad","path":"objects/obj_par_npc/obj_par_npc.yy",},"resource":{"name":"seq_grocer_angry","path":"sequences/seq_grocer_angry/seq_grocer_angry.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"seq_grocer_angry",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"propertyId":{"name":"doneSprite","path":"objects/obj_par_npc/obj_par_npc.yy",},"resource":{"name":"spr_grocer_sad","path":"sprites/spr_grocer_sad/spr_grocer_sad.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_grocer_sad",},
   ],
   "parent":{
     "name":"NPCs",

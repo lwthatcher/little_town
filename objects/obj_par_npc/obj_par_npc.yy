@@ -42,6 +42,10 @@
     {"$GMObjectProperty":"v1","%Name":"sequenceSad","filters":[
         "GMSequence",
       ],"listItems":[],"multiselect":false,"name":"sequenceSad","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"myState","filters":[],"listItems":[],"multiselect":false,"name":"myState","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"npcState.normal","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"doneSprite","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"doneSprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
