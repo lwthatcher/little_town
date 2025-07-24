@@ -71,8 +71,19 @@ if (vx != 0 || vy != 0)
 	if (hasItem == noone) { myState = playerState.walking; }
 	else { myState = playerState.carrying; }
 	
-	// Move audio listener with player
-	audio_listener_set_position(0,x,y,0);
+	// Set my listener if Sequence is playing
+	if (instance_exists(obj_control) && 
+	  obj_control.sequenceState == seqState.playing) {
+		var _camX = camera_get_view_x(view_camera[0])
+		  + floor(camera_get_view_width(view_camera[0])*0.5);
+		var _camY = camera_get_view_y(view_camera[0])
+		  + floor(camera_get_view_height(view_camera[0])*0.5);
+		audio_listener_set_position(0,_camX,_camY,0);
+	}
+	else {
+		// Otherwise, move audio listener with me
+		audio_listener_set_position(0,x,y,0);
+	}
 }
 
 // Check for collisions with NPCs
