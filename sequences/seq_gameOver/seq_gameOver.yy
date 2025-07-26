@@ -10,7 +10,13 @@
   "backdropYOffset":0.0,
   "events":{
     "$KeyframeStore<MessageEventKeyframe>":"",
-    "Keyframes":[],
+    "Keyframes":[
+      {"$Keyframe<MessageEventKeyframe>":"","Channels":{
+          "0":{"$MessageEventKeyframe":"","Events":[
+              "sequenceStart",
+            ],"resourceType":"MessageEventKeyframe","resourceVersion":"2.0",},
+        },"Disabled":false,"id":"977c43f1-b58e-409a-ac2a-3d13f459016f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"2.0","Stretch":false,},
+    ],
     "resourceType":"KeyframeStore<MessageEventKeyframe>",
     "resourceVersion":"2.0",
   },
