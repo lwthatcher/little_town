@@ -41,3 +41,15 @@ enum npcState {
 sequenceState = seqState.notPlaying;
 curSeqLayer = noone;
 curSeq = noone;
+
+function npcsExist() {
+	return instance_exists(obj_npc_baker) 
+		&& instance_exists(obj_npc_teacher)
+		&& instance_exists(obj_npc_grocer);
+}
+
+function npcsHaveState(state) {
+	return obj_npc_baker.myState == state
+		&& obj_npc_teacher.myState == state
+		&& obj_npc_grocer.myState == state;
+}

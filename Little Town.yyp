@@ -77,6 +77,7 @@
     {"id":{"name":"rm_gameMain","path":"rooms/rm_gameMain/rm_gameMain.yy",},},
     {"id":{"name":"scr_itemControl","path":"scripts/scr_itemControl/scr_itemControl.yy",},},
     {"id":{"name":"scr_promptControl","path":"scripts/scr_promptControl/scr_promptControl.yy",},},
+    {"id":{"name":"scr_sequenceControl","path":"scripts/scr_sequenceControl/scr_sequenceControl.yy",},},
     {"id":{"name":"seq_baker_happy","path":"sequences/seq_baker_happy/seq_baker_happy.yy",},},
     {"id":{"name":"seq_baker_sad","path":"sequences/seq_baker_sad/seq_baker_sad.yy",},},
     {"id":{"name":"seq_gameOver","path":"sequences/seq_gameOver/seq_gameOver.yy",},},
