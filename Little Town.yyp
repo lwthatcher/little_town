@@ -75,6 +75,7 @@
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},},
     {"id":{"name":"obj_tree01","path":"objects/obj_tree01/obj_tree01.yy",},},
     {"id":{"name":"rm_gameMain","path":"rooms/rm_gameMain/rm_gameMain.yy",},},
+    {"id":{"name":"scr_gameControl","path":"scripts/scr_gameControl/scr_gameControl.yy",},},
     {"id":{"name":"scr_itemControl","path":"scripts/scr_itemControl/scr_itemControl.yy",},},
     {"id":{"name":"scr_promptControl","path":"scripts/scr_promptControl/scr_promptControl.yy",},},
     {"id":{"name":"scr_sequenceControl","path":"scripts/scr_sequenceControl/scr_sequenceControl.yy",},},

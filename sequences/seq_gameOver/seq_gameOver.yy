@@ -22,11 +22,17 @@
   },
   "eventStubScript":null,
   "eventToFunction":{},
-  "length":240.0,
+  "length":250.0,
   "lockOrigin":false,
   "moments":{
     "$KeyframeStore<MomentsEventKeyframe>":"",
-    "Keyframes":[],
+    "Keyframes":[
+      {"$Keyframe<MomentsEventKeyframe>":"","Channels":{
+          "0":{"$MomentsEventKeyframe":"","Events":[
+              "scr_gameOver",
+            ],"resourceType":"MomentsEventKeyframe","resourceVersion":"2.0",},
+        },"Disabled":false,"id":"a2b0690a-db74-4600-92bd-13de0d1e4ca1","IsCreationKey":false,"Key":245.0,"Length":1.0,"resourceType":"Keyframe<MomentsEventKeyframe>","resourceVersion":"2.0","Stretch":false,},
+    ],
     "resourceType":"KeyframeStore<MomentsEventKeyframe>",
     "resourceVersion":"2.0",
   },
@@ -50,7 +56,7 @@
     {"$GMAudioTrack":"","%Name":"snd_gameOver","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<AudioKeyframe>":"","Keyframes":[
           {"$Keyframe<AudioKeyframe>":"","Channels":{
               "0":{"$AudioKeyframe":"","Id":{"name":"snd_gameOver","path":"sounds/snd_gameOver/snd_gameOver.yy",},"Mode":0,"resourceType":"AudioKeyframe","resourceVersion":"2.0",},
-            },"Disabled":false,"id":"aca4da02-0a89-4605-b9bc-dad45f61490e","IsCreationKey":false,"Key":0.0,"Length":240.0,"resourceType":"Keyframe<AudioKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            },"Disabled":false,"id":"aca4da02-0a89-4605-b9bc-dad45f61490e","IsCreationKey":false,"Key":0.0,"Length":241.0,"resourceType":"Keyframe<AudioKeyframe>","resourceVersion":"2.0","Stretch":false,},
         ],"resourceType":"KeyframeStore<AudioKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"snd_gameOver","resourceType":"GMAudioTrack","resourceVersion":"2.0","trackColour":4294079048,"tracks":[
         {"$GMRealTrack":"","%Name":"gain","builtinName":5,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<RealKeyframe>":"","Keyframes":[
               {"$Keyframe<RealKeyframe>":"","Channels":{
@@ -219,7 +225,10 @@
             ],"resourceType":"KeyframeStore<RealKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"scale","resourceType":"GMRealTrack","resourceVersion":"2.0","trackColour":4282929394,"tracks":[],"traits":0,},
       ],"traits":0,},
   ],
-  "visibleRange":null,
+  "visibleRange":{
+    "x":0.0,
+    "y":249.9999,
+  },
   "volume":1.0,
   "xorigin":0,
   "yorigin":0,
