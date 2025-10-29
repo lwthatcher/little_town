@@ -30,5 +30,15 @@ switch sequenceState {
 		audio_sound_get_gain(snd_townAmbience) < townAmbienceVolume) {
 			audio_sound_gain(snd_townAmbience,townAmbienceVolume,60);
 		}
+		// Check if NPCs are "done"
+		if (global.gameOver == false) {
+			if (npcsExist() && npcsHaveState(npcState.done)) {
+				// Queue up "Game Over" sequence
+				global.playerControl = false;
+				alarm[0] = 60;
+				// Mark game as won
+				global.gameOver = true;
+			}
+		}
 	} break;
 }
